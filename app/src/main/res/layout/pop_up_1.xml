@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:background="@drawable/border2"
+
+    android:layout_gravity="center"
+    android:layout_height="475dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/title"
+    android:text="@string/result"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:textSize="35sp"
+    android:textColor="@color/Black"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="The correct Answer is "
+        />
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/imageview"
+
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="120dp"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="FRANCE"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:id="@+id/correct_answer"
+/>
+<Button
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+
+    android:id="@+id/next"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="400dp"
+    />
+
+
+
+
+</RelativeLayout>
